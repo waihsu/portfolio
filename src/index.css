@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    transition: .5s linear;
+}
+
+html {
+    scroll-behavior: smooth;
+}
