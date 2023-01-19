@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="w-72 flex flex-col justify-center gap-4 my-6">
           <motion.div
           variants={boxVariants}
-          whileHover="hover"
+          whileTap="hover"
           className="border-yellow-400 border backdrop-blur-xl max-w-sm flex text-white flex-col justify-center items-center py-6 rounded-xl">
             <div className="text-xl font-bold mb-2">
               <AiOutlineMail />
@@ -47,7 +47,7 @@ const Contact = () => {
           </motion.div>
           <motion.div 
           variants={boxVariants}
-          whileHover="hover"
+          whileTag="hover"
           className="border border-yellow-400 backdrop-blur-xl max-w-sm flex text-white flex-col justify-center items-center py-6 rounded-xl">
             <div className="text-xl font-bold mb-2">
               <BsMessenger />
@@ -60,7 +60,7 @@ const Contact = () => {
           </motion.div>
           <motion.div 
           variants={boxVariants}
-          whileHover="hover"
+          whileTag="hover"
           className="border border-yellow-400 backdrop-blur-xl max-w-sm flex text-white flex-col justify-center items-center py-6 rounded-xl">
             <div className="text-xl font-bold mb-2">
               <BsTelegram />

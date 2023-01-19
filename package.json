@@ -51,12 +51,12 @@
   "main": "tailwind.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nstoner/portfolio.git"
+    "url": "git+https://github.com/waihsu/portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nstoner/portfolio.git"
+    "url": "https://github.com/waihsu/portfolio.git"
   },
-  "homepage": "https://nstoner.github.io/portfolio"
+  "homepage": "https://waihsu.github.io/portfolio"
 }
