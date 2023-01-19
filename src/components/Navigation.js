@@ -43,7 +43,10 @@ const Navigation = () => {
         
         variants={navIcon}
         
+
         className="text-orange-900 text-4xl p-4"><a href="#home" onClick={ () => setActiveNav("#home")} className={activeNav === '#home' ? 'active text-purple-800' : ''}><AiOutlineHome /></a></motion.li>
+
+        
         <motion.li whileHover="hover"
         variants={navIcon}
         
