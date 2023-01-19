@@ -7,7 +7,7 @@ const App = () => {
   return (
 
     
-    <div className="App">
+    <div className="App bg-yellow-400">
         <Navigation />
       <div className="main">
         <Home />
